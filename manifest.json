@@ -1,18 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "",
-    "description": "",
-    "version": "",
+    "name": "testExt",
+    "description": "Testing chrome extensions",
+    "version": "1.0",
     "icons": {
-    "16": "",
-    "48": "",
-    "128": ""
+    "16": "/images/16.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
     },
     "page_action": {
         "default_icon": {
-            "16": "",
-            "48": "",
-            "128": ""
+            "16": "/images/16-1.png",
+            "48": "/images/48-1.png",
+            "128": "/images/128-1.png" 
         }
     },
     "content_scripts": [{}]
