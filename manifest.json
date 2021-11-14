@@ -15,5 +15,10 @@
             "128": "/images/128-1.png" 
         }
     },
-    "content_scripts": [{}]
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "css":["main.css"]
+        }
+    ]
 }
